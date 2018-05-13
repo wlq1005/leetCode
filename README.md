@@ -1,7 +1,10 @@
 # leetCode算法学习
 
-## 初级算法
-### :cat:数组
+```
+[TOC]
+```
+[点击我跳转](#testaa)
+### 数组
 #### [删除排序数组中的重复项](https://github.com/wlq1005/leetCode/blob/master/src/com/wulq/learn/array/RemoveDuplicates.java)
 #### [买卖股票的最佳时机 II]()
 #### [旋转数组]()
@@ -14,10 +17,10 @@
 #### [有效的数独]()
 #### [旋转图像]()
 
-### :dog:字符串
+### 字符串
 ####
 
-### :mouse:链表
+### 链表
 
 ### 树
 
@@ -30,3 +33,6 @@
 ### 数学
 
 ### 其他
+
+
+<a id="testaa" />
