@@ -41,6 +41,12 @@ public class Lesson22 {
         System.out.println(lesson22.maxProfit(prices3));
     }
 
+    /**
+     * Solution 1
+     *
+     * @param prices
+     * @return
+     */
     public int maxProfit(int[] prices) {
         int profit = 0;
         for (int i = 0; i < prices.length - 1; i++) {
@@ -49,5 +55,52 @@ public class Lesson22 {
             }
         }
         return profit;
+    }
+
+    /**
+     * Solution 2
+     *
+     * @param prices
+     * @return
+     */
+    public int maxProfit2(int[] prices) {
+        if (prices.length <= 1) {
+            return 0;
+        }
+        int begin = prices[0];
+        int end = prices[0];
+        int sum = 0;
+        for (int i = 0; i < prices.length; i++) {
+            if (prices[i] >= end) {
+                end = prices[i];
+            } else {
+                sum = sum + end - begin;
+                begin = prices[i];
+                end = prices[i];
+            }
+        }
+        sum = sum + end - begin;
+        return sum;
+    }
+
+    /**
+     * Solution 3
+     *
+     * @param prices
+     * @return
+     */
+    public int maxProfit3(int[] prices) {
+        if (prices.length <= 1) {
+            return 0;
+        }
+        int[] buy = new int[prices.length];
+        int[] sell = new int[prices.length];
+        buy[0] = prices[0];
+        sell[0] = 0;
+        for (int i = 1; i < prices.length; i++) {
+            buy[i] = Math.min(buy[i - 1], prices[i] - sell[i - 1]);
+            sell[i] = Math.max(sell[i - 1], prices[i] - buy[i - 1]);
+        }
+        return sell[prices.length - 1];
     }
 }
