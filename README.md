@@ -5,7 +5,7 @@
 ### 数组
 * [删除排序数组中的重复项](https://github.com/wlq1005/leetCode/blob/master/src/com/wulq/learn/array/Lesson21.java)
 * [买卖股票的最佳时机 II](https://github.com/wlq1005/leetCode/blob/master/src/com/wulq/learn/array/Lesson22.java)
-* [旋转数组]()  
+* [旋转数组](https://github.com/wlq1005/leetCode/blob/master/src/com/wulq/learn/array/Lesson23.java)
 * [存在重复]()  
 * [只出现一次的数字]()  
 * [两个数组的交集 II]()  
