@@ -1,4 +1,4 @@
-package com.wulq.learn.array;
+package com.wlq.algorithm.array;
 
 /**
  * 从排序数组中删除重复项

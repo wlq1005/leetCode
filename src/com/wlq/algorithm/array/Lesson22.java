@@ -1,4 +1,4 @@
-package com.wulq.learn.array;
+package com.wlq.algorithm.array;
 
 /**
  * 买卖股票的最佳时机 II

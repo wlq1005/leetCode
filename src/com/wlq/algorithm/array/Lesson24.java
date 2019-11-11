@@ -1,4 +1,4 @@
-package com.wulq.learn.array;
+package com.wlq.algorithm.array;
 
 /**
  * 存在重复

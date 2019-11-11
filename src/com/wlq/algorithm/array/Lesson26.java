@@ -1,4 +1,4 @@
-package com.wulq.learn.array;
+package com.wlq.algorithm.array;
 
 import java.util.ArrayList;
 import java.util.Arrays;
