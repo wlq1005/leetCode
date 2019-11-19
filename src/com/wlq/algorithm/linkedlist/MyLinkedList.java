@@ -1,6 +1,11 @@
 package com.wlq.algorithm.linkedlist;
 
-class MyLinkedList {
+/**
+ *
+ * https://leetcode-cn.com/problems/design-linked-list/
+ *
+ */
+public class MyLinkedList {
 
     private int length = 0;
 
