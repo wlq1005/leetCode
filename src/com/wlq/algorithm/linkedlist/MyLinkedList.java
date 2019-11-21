@@ -60,11 +60,11 @@ public class MyLinkedList {
         if (length == 0) {
             node = new Node(val, null);
         } else {
-            Node tmp = node;
-            while (tmp.next != null) {
-                tmp = tmp.next;
+            Node temp = node;
+            while (temp.next != null) {
+                temp = temp.next;
             }
-            tmp.next = new Node(val, null);
+            temp.next = new Node(val, null);
         }
         length++;
     }
