@@ -1,6 +1,7 @@
 package com.wlq.algorithm.linkedlist;
 
 /**
+ * 707. 设计链表
  * https://leetcode-cn.com/problems/design-linked-list/
  *
  * @author wlq
