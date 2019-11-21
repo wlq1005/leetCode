@@ -1,9 +1,10 @@
 package com.wlq.algorithm.linkedlist;
 
 /**
- *
  * https://leetcode-cn.com/problems/design-linked-list/
  *
+ * @author wlq
+ * @since 2019/11/13 23:00
  */
 public class MyLinkedList {
 
