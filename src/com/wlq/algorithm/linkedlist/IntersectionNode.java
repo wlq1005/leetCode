@@ -7,7 +7,7 @@ package com.wlq.algorithm.linkedlist;
  * @author wlq
  * @since 2019/11/21 23:53
  */
-public class TwoPointerTechnique {
+public class IntersectionNode {
 
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if (headA == null || headB == null) {
@@ -25,7 +25,6 @@ public class TwoPointerTechnique {
     static class ListNode {
         int val;
         ListNode next;
-
 
         ListNode(int x) {
             val = x;
