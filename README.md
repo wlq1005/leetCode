@@ -1,12 +1,11 @@
 # leetCode算法学习
 
-| 链表  |
-|---|
-| [设计链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/MyLinkedList.java)  |
-| [环形链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/LinkedListCycle.java)  |
-| [环形链表II](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/LinkedListCycle2.java)  |
-| [相交链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/IntersectionNode.java)  |
-| [相交链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/RemoveNthFromEnd.java)  |
+### 链表
+* [设计链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/MyLinkedList.java)
+* [环形链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/LinkedListCycle.java)
+* [环形链表II](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/LinkedListCycle2.java)
+* [相交链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/IntersectionNode.java)
+* [删除链表的倒数第N个节点](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/RemoveNthFromEnd.java)
 
 ## 初级算法
 ### 数组
