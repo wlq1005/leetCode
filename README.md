@@ -10,17 +10,17 @@
 
 ## 初级算法
 ### 数组
-* [删除排序数组中的重复项](https://github.com/wlq1005/leetCode/blob/master/src/com/wulq/learn/array/Lesson21.java)
-* [买卖股票的最佳时机 II](https://github.com/wlq1005/leetCode/blob/master/src/com/wulq/learn/array/Lesson22.java)
-* [旋转数组](https://github.com/wlq1005/leetCode/blob/master/src/com/wulq/learn/array/Lesson23.java)
-* [存在重复](https://github.com/wlq1005/leetCode/blob/master/src/com/wulq/learn/array/Lesson24.java)
-* [只出现一次的数字](https://github.com/wlq1005/leetCode/blob/master/src/com/wulq/learn/array/Lesson25.java)
-* [两个数组的交集 II](https://github.com/wlq1005/leetCode/blob/master/src/com/wulq/learn/array/Lesson26.java)
-* [加一](https://github.com/wlq1005/leetCode/blob/master/src/com/wulq/learn/array/Lesson27.java)
-* [移动零](https://github.com/wlq1005/leetCode/blob/master/src/com/wulq/learn/array/Lesson28.java)
-* [两数之和](https://github.com/wlq1005/leetCode/blob/master/src/com/wulq/learn/array/Lesson29.java)
-* [有效的数独](https://github.com/wlq1005/leetCode/blob/master/src/com/wulq/learn/array/Lesson30.java)
-* [旋转图像](https://github.com/wlq1005/leetCode/blob/master/src/com/wulq/learn/array/Lesson31.java)
+* [删除排序数组中的重复项](https://github.com/wlq1005/leetCode/blob/master/src/com/wulq/algorithrm/array/Lesson21.java)
+* [买卖股票的最佳时机 II](https://github.com/wlq1005/leetCode/blob/master/src/com/wulq/algorithrm/array/Lesson22.java)
+* [旋转数组](https://github.com/wlq1005/leetCode/blob/master/src/com/wulq/algorithrm/array/Lesson23.java)
+* [存在重复](https://github.com/wlq1005/leetCode/blob/master/src/com/wulq/algorithrm/array/Lesson24.java)
+* [只出现一次的数字](https://github.com/wlq1005/leetCode/blob/master/src/com/wulq/algorithrm/array/Lesson25.java)
+* [两个数组的交集 II](https://github.com/wlq1005/leetCode/blob/master/src/com/wulq/algorithrm/array/Lesson26.java)
+* [加一](https://github.com/wlq1005/leetCode/blob/master/src/com/wulq/algorithrm/array/Lesson27.java)
+* [移动零](https://github.com/wlq1005/leetCode/blob/master/src/com/wulq/algorithrm/array/Lesson28.java)
+* [两数之和](https://github.com/wlq1005/leetCode/blob/master/src/com/wulq/algorithrm/array/Lesson29.java)
+* [有效的数独](https://github.com/wlq1005/leetCode/blob/master/src/com/wulq/algorithrm/array/Lesson30.java)
+* [旋转图像](https://github.com/wlq1005/leetCode/blob/master/src/com/wulq/algorithrm/array/Lesson31.java)
 
 ### 字符串
 * [反转字符串]()  
