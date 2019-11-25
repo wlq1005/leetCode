@@ -10,19 +10,15 @@ package com.wlq.algorithm.linkedlist;
 public class ReverseList {
 
     public ListNode reverseList(ListNode head) {
-        ListNode temp = head;
-        ListNode result = null;
-        while (temp != null) {
-            if (result == null) {
-                result = new ListNode(temp.val);
-            } else {
-                ListNode node = new ListNode(temp.val);
-                node.next = result;
-                result = node;
-            }
-            temp = temp.next;
+        ListNode node = head;
+        ListNode temp = null;
+        while (node != null) {
+            node = node.next;
+            head.next = temp;
+            temp = head;
+            head = node;
         }
-        return result;
+        return temp;
     }
 
     static class ListNode {
