@@ -8,6 +8,7 @@
 * [删除链表的倒数第N个节点](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/RemoveNthFromEnd.java)
 * [反转链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/ReverseList.java)
 * [移除链表元素](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/ReverseList.java)
+* [奇偶链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/OddEvenList.java)
 
 ## 初级算法
 ### 数组
