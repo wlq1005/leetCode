@@ -1,7 +1,8 @@
 # leetCode算法学习
 
 ### 链表
-* [设计链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/MyLinkedList.java)
+* [设计链表-单链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/MyLinkedList.java)
+* [设计链表-双链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/DoublyLinkedList.java)
 * [环形链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/LinkedListCycle.java)
 * [环形链表II](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/LinkedListCycle2.java)
 * [相交链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/IntersectionNode.java)

@@ -14,8 +14,11 @@ public class ReverseList {
         ListNode temp = null;
         while (node != null) {
             node = node.next;
+            // next指针改为指向前一个元素
             head.next = temp;
+            // 存储前一个元素
             temp = head;
+            // 存储下一个节点
             head = node;
         }
         return temp;
