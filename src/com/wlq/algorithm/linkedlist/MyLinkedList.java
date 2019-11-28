@@ -34,7 +34,7 @@ public class MyLinkedList {
      * Get the value of the index-th node in the linked list. If the index is invalid, return -1.
      */
     public int get(int index) {
-        if (index < 0 || index + 1 > length || node == null) {
+        if (index < 0 || index + 1 > length) {
             return -1;
         }
         Node temp = node;
@@ -42,7 +42,6 @@ public class MyLinkedList {
             temp = temp.next;
             index--;
         }
-        System.out.println(temp.val);
         return temp.val;
     }
 
