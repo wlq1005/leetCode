@@ -1,7 +1,5 @@
 package com.wlq.algorithm.array;
 
-import org.omg.CORBA.MARSHAL;
-
 import java.util.Arrays;
 
 /**
