@@ -6,6 +6,7 @@
 * [加一](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/PlusOne.java)
 * [对角线遍历](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/FindDiagonalOrder.java)
 * [螺旋矩阵](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/SpiralOrder.java)
+* [二进制求和](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/AddBinary.java)
 
 ### 链表
 * [设计链表-单链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/MyLinkedList.java)
