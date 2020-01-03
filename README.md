@@ -9,6 +9,20 @@
 * [二进制求和](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/AddBinary.java)
 * [实现 strStr()](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/ImplementStrStr.java)
 * [最长公共前缀](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/LongestCommonPrefix.java)
+* [反转字符串]
+* [数组拆分 I]
+* [两数之和 II - 输入有序数组]
+* [移除元素]
+* [最大连续1的个数]
+* [长度最小的子数组]
+* [旋转数组]
+* [杨辉三角 II]
+* [翻转字符串里的单词]
+* [反转字符串中的单词 III]
+* [删除排序数组中的重复项]
+* [移动零]
+
+### 字符串
 
 ### 链表
 * [设计链表-单链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/MyLinkedList.java)
@@ -21,5 +35,20 @@
 * [移除链表元素](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/ReverseList.java)
 * [奇偶链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/OddEvenList.java)
 * [回文链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/IsPalindrome.java)
+* [合并两个有序链表]
+* [两数相加]
+* [扁平化多级双向链表]
+* [合复制带随机指针的链表并两个有序链表]
+* [旋转链表]
 
+### 树和图
 
+### 回溯算法
+
+### 排序和搜索
+
+### 动态规划
+
+### 设计问题
+
+### 数学
