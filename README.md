@@ -8,7 +8,7 @@
 * [螺旋矩阵](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/SpiralOrder.java)
 * [二进制求和](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/AddBinary.java)
 * [实现 strStr()](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/ImplementStrStr.java)
-* [最长公共前缀](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/ImplementStrStr.java)
+* [最长公共前缀](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/LongestCommonPrefix.java)
 
 ### 链表
 * [设计链表-单链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/MyLinkedList.java)
