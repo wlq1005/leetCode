@@ -18,24 +18,22 @@ public class ImplementStrStr {
         }
         char[] haystackArr = haystack.toCharArray();
         char[] needleArr = needle.toCharArray();
-        for (int i = 0; i < haystackArr.length; i++) {
-            if (i + needle.length() > haystackArr.length) {
-                return -1;
-            }
-            int j = 0, k = i;
-            while (j < needleArr.length && haystackArr[k] == needleArr[j]) {
-                j++;
-                k++;
+        for (int i = 0; i <= haystackArr.length - needleArr.length; i++) {
+            int j;
+            for (j = 0; j < needleArr.length; j++) {
+                if (needleArr[j] != haystackArr[i + j]) {
+                    break;
+                }
             }
             if (j == needleArr.length) {
                 return i;
             }
         }
-        return -1;
+        return haystack.equals(needle) ? 0 : -1;
     }
 
     public static void main(String[] args) {
         ImplementStrStr test = new ImplementStrStr();
-        System.out.println(test.strStr("mississippi", "issip"));
+        System.out.println(test.strStr("like", "ik"));
     }
 }
