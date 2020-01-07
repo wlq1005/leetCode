@@ -1,5 +1,17 @@
 # leetCode算法学习
 
+### 常见排序
+* [冒泡排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/BubbleSort.java)
+* [插入排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/BubbleSort.java)
+* [选择排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/BubbleSort.java)
+* [希尔排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/BubbleSort.java)
+* [归并排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/BubbleSort.java)
+* [快速排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/QuickSort.java)
+* [堆排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/BubbleSort.java)
+* [计数排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/BubbleSort.java)
+* [基数排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/BubbleSort.java)
+* [堆排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/BubbleSort.java)
+
 ### 数组
 * [寻找数组的中心索引](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/PivotIndex.java)
 * [至少是其他数字两倍的最大数](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/DominantIndex.java)
