@@ -10,7 +10,7 @@ import java.util.Arrays;
  * 稳定性:
  * arr[j] > arr[j + 1] 稳定
  * arr[j] >= arr[j + 1] 不稳定
- *
+ * <p>
  * 时间复杂度:逆向排序时O(n^2)
  * 空间复杂度:O(1)
  *
