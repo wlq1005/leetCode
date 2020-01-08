@@ -1,16 +1,16 @@
 # leetCode算法学习
 
 ### 常见排序
-* [冒泡排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/BubbleSort.java)
-* [插入排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/BubbleSort.java)
-* [选择排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/BubbleSort.java)
-* [希尔排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/BubbleSort.java)
-* [归并排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/BubbleSort.java)
-* [快速排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/QuickSort.java)
-* [堆排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/BubbleSort.java)
-* [计数排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/BubbleSort.java)
-* [基数排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/BubbleSort.java)
-* [堆排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/BubbleSort.java)
+* [冒泡排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/BubbleSort.java)
+* [插入排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/BubbleSort.java)
+* [选择排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/BubbleSort.java)
+* [希尔排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/BubbleSort.java)
+* [归并排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/BubbleSort.java)
+* [快速排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/QuickSort.java)
+* [堆排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/BubbleSort.java)
+* [计数排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/BubbleSort.java)
+* [基数排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/BubbleSort.java)
+* [堆排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/BubbleSort.java)
 
 ### 数组
 * [寻找数组的中心索引](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/PivotIndex.java)
