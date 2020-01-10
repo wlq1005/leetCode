@@ -5,8 +5,8 @@ import java.util.Arrays;
 /**
  * 快速排序
  * 稳定性：不稳定
- * 时间复杂度：平均:O(nlogn) 最坏O(n^2)
- * 空间复杂度: 最优:O(logn) 最差O(n)
+ * 时间复杂度：平均:O(n log n) 最坏O(n^2)
+ * 空间复杂度: 最优:O(log n) 最差O(n)
  *
  * @author wuliuqing
  * @date 2020/1/7 17:17
