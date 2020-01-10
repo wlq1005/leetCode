@@ -1,6 +1,7 @@
 # leetCode算法学习
 
 ### 常见排序
+ ![算法比较](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/sort.jpg)
 * [冒泡排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/BubbleSort.java)
 * [插入排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/BubbleSort.java)
 * [选择排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/BubbleSort.java)
