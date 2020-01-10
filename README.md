@@ -1,6 +1,6 @@
 # leetCode算法学习
 
-### 常见排序
+### 排序
  ![算法比较](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/sort.jpg)
 * [冒泡排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/BubbleSort.java)
 * [插入排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/BubbleSort.java)
@@ -61,6 +61,9 @@
 ### 排序和搜索
 
 ### 动态规划
+
+### 堆
+* [前 K 个高频元素](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/heap/TopKFrequentElements.java)
 
 ### 设计问题
 
