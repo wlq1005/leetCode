@@ -3,15 +3,15 @@
 ### 排序
  ![算法比较](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/sort.jpg)
 * [冒泡排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/BubbleSort.java)
-* [插入排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/InsertSort.java)
 * [选择排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/SelectionSort.java)
+* [插入排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/InsertSort.java)
 * [希尔排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/ShellSort.java)
 * [归并排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/BubbleSort.java)
 * [快速排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/QuickSort.java)
-* [堆排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/BubbleSort.java)
-* [计数排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/BubbleSort.java)
-* [基数排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/BubbleSort.java)
 * [堆排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/HeapSort.java)
+* [计数排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/BubbleSort.java)
+* [桶排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/BubbleSort.java)
+* [基数排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/BubbleSort.java)
 
 ### 数组
 * [寻找数组的中心索引](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/PivotIndex.java)
