@@ -23,17 +23,18 @@ public class CountSort {
         // 构建新的数组，长度为max-min+1
         int[] countArr = new int[max - min + 1];
         // 统计原数组数字出现次数，下标为val - min
-        for (int val: arr) {
+        for (int val : arr) {
             countArr[val - min]++;
         }
-        // 根据元素出现的次数，把数据添加至结果集中
+        // 计算元素变形，后一个元素前面元素的合
+        for (int i = 1; i < countArr.length; i++) {
+            countArr[i] = countArr[i ] + countArr[i - 1];
+        }
+        // 创建新的结果集
         int[] result = new int[arr.length];
-        int j = 0;
-        for(int i = 0; i < countArr.length; i++) {
-            while (countArr[i] > 0) {
-                result[j++] = i;
-                countArr[i]--;
-            }
+        for (int j : arr) {
+            result[countArr[j - min] - 1] = j;
+            countArr[j - min]--;
         }
         return result;
     }
