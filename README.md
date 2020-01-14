@@ -24,7 +24,7 @@
 * [实现 strStr()](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/ImplementStrStr.java)
 * [最长公共前缀](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/LongestCommonPrefix.java)
 * [反转字符串](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/ReverseString.java)
-* [数组拆分 I]
+* [数组拆分 I](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/ArrayPartitionI.java)
 * [两数之和 II - 输入有序数组]
 * [移除元素]
 * [最大连续1的个数]
