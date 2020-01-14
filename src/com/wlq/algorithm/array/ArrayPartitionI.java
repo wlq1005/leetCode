@@ -15,8 +15,10 @@ public class ArrayPartitionI {
         if (nums == null || nums.length == 0) {
             return 0;
         }
+        // 从小到大排序
         Arrays.sort(nums);
         int result = 0;
+        // 直接取奇数位，排序完后，相邻的两数值最接近，计算min之后丢失少
         for (int i = 0; i < nums.length; i = i + 2) {
             result += nums[i];
         }
