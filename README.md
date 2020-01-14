@@ -26,7 +26,7 @@
 * [反转字符串](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/ReverseString.java)
 * [数组拆分 I](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/ArrayPartitionI.java)
 * [两数之和 II - 输入有序数组](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/TwoSumIiInputArrayIsSorted.java)
-* [移除元素]
+* [移除元素](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/RemoveElement.java)
 * [最大连续1的个数]
 * [长度最小的子数组]
 * [旋转数组]
