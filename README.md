@@ -27,7 +27,7 @@
 * [数组拆分 I](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/ArrayPartitionI.java)
 * [两数之和 II - 输入有序数组](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/TwoSumIiInputArrayIsSorted.java)
 * [移除元素](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/RemoveElement.java)
-* [最大连续1的个数]
+* [最大连续1的个数](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/MaxConsecutiveOnes.java)
 * [长度最小的子数组]
 * [旋转数组]
 * [杨辉三角 II]
