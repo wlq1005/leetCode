@@ -14,7 +14,7 @@
 * [基数排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/RadixSort.java)
 
 ## LeetCode
-### 数组
+### 字符串、数组
 * [寻找数组的中心索引](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/PivotIndex.java)
 * [至少是其他数字两倍的最大数](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/DominantIndex.java)
 * [加一](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/PlusOne.java)
@@ -35,6 +35,13 @@
 * [反转字符串中的单词 III]
 * [删除排序数组中的重复项]
 * [移动零]
+* [整数反转]
+* [字符串中的第一个唯一字符]
+* [有效的字母异位词]
+* [验证回文字符串]
+* [字符串转换整数 (atoi)]
+* [外观数列]
+
 
 ### 字符串
 
@@ -54,18 +61,37 @@
 * [扁平化多级双向链表]
 * [合复制带随机指针的链表并两个有序链表]
 * [旋转链表]
+* [删除链表中的节点]
+* [合并两个有序链表]
 
 ### 树和图
+* [二叉树的最大深度]
+* [验证二叉搜索树]
+* [对称二叉树]
+* [二叉树的层次遍历]
+* [将有序数组转换为二叉搜索树]
 
 ### 回溯算法
 
 ### 排序和搜索
+* [合并两个有序数组]
+* [第一个错误的版本]
 
 ### 动态规划
+* [爬楼梯]
+* [买卖股票的最佳时机]
+* [最大子序和]
+* [打家劫舍]
 
 ### 堆
 * [前 K 个高频元素](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/heap/TopKFrequentElements.java)
 
 ### 设计问题
+* [Shuffle an Array]
+* [最小栈]
 
 ### 数学
+* [Fizz Buzz]
+* [计数质数]
+* [3的幂]
+* [罗马数字转整数]
