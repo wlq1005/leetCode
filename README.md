@@ -30,7 +30,8 @@
 * [最大连续1的个数](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/MaxConsecutiveOnes.java)
 * [长度最小的子数组](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/MinimumSizeSubArraySum.java)
 * [旋转数组](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/RotateArray.java)
-* [杨辉三角 II]
+* [杨辉三角](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/PascalsTriangle.java)
+* [杨辉三角 II](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/PascalsTriangleII.java)
 * [翻转字符串里的单词]
 * [反转字符串中的单词 III]
 * [删除排序数组中的重复项]

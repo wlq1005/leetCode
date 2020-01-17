@@ -6,13 +6,13 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * 杨辉三角
+ * 118. 杨辉三角
  * https://leetcode-cn.com/problems/pascals-triangle/
  *
  * @author wlq
  * @since 2019/12/10 21:36
  */
-public class Generate {
+public class PascalsTriangle {
 
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> result = new ArrayList<>();
@@ -34,7 +34,7 @@ public class Generate {
     }
 
     public static void main(String[] args) {
-        List<List<Integer>> result = new Generate().generate(1);
+        List<List<Integer>> result = new PascalsTriangle().generate(1);
         result.forEach(r -> System.out.println(Arrays.toString(r.toArray())));
     }
 }
