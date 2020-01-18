@@ -79,7 +79,7 @@
 * [第一个错误的版本]
 
 ### 动态规划
-* [爬楼梯]
+* [爬楼梯](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/dynamic/ClimbingStairs)
 * [买卖股票的最佳时机]
 * [最大子序和]
 * [打家劫舍]
