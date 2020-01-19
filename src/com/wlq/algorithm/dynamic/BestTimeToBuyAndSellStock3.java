@@ -33,7 +33,6 @@ public class BestTimeToBuyAndSellStock3 {
         BestTimeToBuyAndSellStock3 bestTimeToBuyAndSellStock3 = new BestTimeToBuyAndSellStock3();
         int[] arr = new int[]{3, 3, 5, 0, 0, 3, 1, 4};
         System.out.println(bestTimeToBuyAndSellStock3.maxProfit(arr));
-
     }
 
 }
