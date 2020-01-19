@@ -10,7 +10,7 @@ package com.wlq.algorithm.dynamic;
 public class BestTimeToBuyAndSellStock {
 
     public int maxProfit(int[] prices) {
-        if (prices.length == 0) {
+        if (prices.length < 1) {
             return 0;
         }
         // 只考需虑当天最少的买入和最大的卖出
