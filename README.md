@@ -43,9 +43,6 @@
 * [字符串转换整数 (atoi)]
 * [外观数列]
 
-
-### 字符串
-
 ### 链表
 * [设计链表-单链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/MyLinkedList.java)
 * [设计链表-双链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/DoublyLinkedList.java)
