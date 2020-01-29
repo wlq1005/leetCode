@@ -29,6 +29,7 @@ public class ReverseWordsInAString {
                     }
                     int j = i + 1;
                     int k = i + count;
+                    // 如果最后个字符不是空格的话则直接拼接
                     if (i == 0 && arr[i] != ' ') {
                         j -= 1;
                         k -= 1;
