@@ -33,7 +33,7 @@
 * [杨辉三角](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/PascalsTriangle.java)
 * [杨辉三角 II](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/PascalsTriangleII.java)
 * [翻转字符串里的单词](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/ReverseWordsInAString.java)
-* [反转字符串中的单词 III]
+* [反转字符串中的单词 III](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/ReverseWordsInAString3.java)
 * [删除排序数组中的重复项]
 * [移动零]
 * [整数反转]
