@@ -15,6 +15,7 @@ public class BeforeYouStart {
         }
         int num = nums[0];
         for (int i = 1; i < nums.length; i++) {
+            // 异或，两位都相等则是0
             num = num ^ nums[i];
         }
         return num;
@@ -24,5 +25,6 @@ public class BeforeYouStart {
         int[] nums = new int[]{4, 1, 2, 1, 2, 4, 3};
         BeforeYouStart beforeYouStart = new BeforeYouStart();
         System.out.println(beforeYouStart.singleNumber(nums));
+        System.out.println(2 << 2);
     }
 }
