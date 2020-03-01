@@ -91,6 +91,7 @@
 * [前 K 个高频元素](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/heap/TopKFrequentElements.java)
 
 ### 设计问题
+* [LRU缓存机制](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/design/LRUCache.java)
 * [Shuffle an Array]
 * [最小栈]
 
