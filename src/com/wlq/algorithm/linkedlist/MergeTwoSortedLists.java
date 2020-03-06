@@ -46,12 +46,10 @@ public class MergeTwoSortedLists {
         ll2.next = new ListNode(4);
         ll1.next = ll2;
 
-        ListNode result = new MergeTwoSortedLists().mergeTwoLists(l1, ll1);
-        System.out.println(result.val);
-        ListNode nodes = result;
-        while (nodes.next != null) {
-            nodes = nodes.next;
+        ListNode nodes = new MergeTwoSortedLists().mergeTwoLists(l1, ll1);
+        while (nodes != null) {
             System.out.println(nodes.val);
+            nodes = nodes.next;
         }
     }
 }
