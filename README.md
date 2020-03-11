@@ -59,7 +59,7 @@
 * [两数相加](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/AddTwoNumbers.java)
 * [扁平化多级双向链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/FlattenAMultilevelDoublyLinkedList.java)
 * [合复制带随机指针的链表并两个有序链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/CopyListWithRandomPointer.java)
-* [旋转链表]
+* [旋转链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/RotateList.java)
 * [删除链表中的节点]
 * [合并两个有序链表]
 
