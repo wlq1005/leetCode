@@ -62,6 +62,9 @@
 * [旋转链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/RotateList.java)
 * [删除链表中的节点](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/DeleteNodeInALinkedList.java)
 
+### 递归
+* [两两交换链表中的节点](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/recursion/SwapNodesInPairs.java)
+
 ### 树和图
 * [二叉树的最大深度]
 * [验证二叉搜索树]
