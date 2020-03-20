@@ -64,6 +64,7 @@
 
 ### 递归
 * [两两交换链表中的节点](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/recursion/SwapNodesInPairs.java)
+* [斐波那契数](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/recursion/FibonacciNumber.java)
 
 ### 树和图
 * [二叉树的最大深度]
