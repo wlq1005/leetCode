@@ -18,10 +18,14 @@ public class FibonacciNumber {
         if (cache.containsKey(N)) {
             return cache.get(N);
         }
+        int result;
         if (N < 2) {
-            return N;
+            result = N;
+        } else {
+            result = fib(N - 2) + fib(N - 1);
         }
-        return fib(N - 2) + fib(N - 1);
+        cache.put(N, result);
+        return result;
     }
 
     public static void main(String[] args) {
