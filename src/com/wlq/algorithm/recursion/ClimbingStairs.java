@@ -1,8 +1,5 @@
 package com.wlq.algorithm.recursion;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * 70. 爬楼梯
  * https://leetcode-cn.com/problems/climbing-stairs/
@@ -12,25 +9,41 @@ import java.util.Map;
  */
 public class ClimbingStairs {
 
-    private int[] arr;
+//    private int[] arr;
+
+//    public int climbStairs(int n) {
+//        arr = new int[n + 1];
+//        return stairs(0, n);
+//    }
+//
+//    private int stairs(int i, int n) {
+//        // i:当前级数，n:总共级
+//        if (i > n) {
+//            return 0;
+//        }
+//        if (i == n) {
+//            return 1;
+//        }
+//        if (arr[i] > 0) {
+//            return arr[i];
+//        }
+//        arr[n] = stairs(i + 1, n) + stairs(i + 2, n);
+//        return arr[n];
+//    }
 
     public int climbStairs(int n) {
-        arr = new int[n + 1];
-        return stairs(n);
-    }
-
-    private int stairs(int n) {
-        if (arr[n] > 0) {
-            return arr[n];
+        if (n == 1) {
+            return 1;
         }
-        int result;
-        if (n < 4) {
-            result = n;
-        } else {
-            result = stairs(n - 2) + stairs(n - 1);
-        }
-        arr[n] = result;
-        return result;
+       int first = 1;
+       int second = 2;
+       for (int i = 3; i <= n; i++) {
+           int third = first + second;
+           first = second;
+           second = third;
+       }
+       return second;
     }
 
 }
+
