@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * 加一
- * https://leetcode-cn.com/problems/plus-one/submissions/
+ * https://leetcode-cn.com/problems/plus-one/
  *
  * @author wlq
  * @since 2019/12/4 23:35

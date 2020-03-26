@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * 对角线遍历
- * https://leetcode-cn.com/problems/diagonal-traverse/submissions/
+ * https://leetcode-cn.com/problems/diagonal-traverse/
  *
  * @author wlq
  * @since 2019/12/5 22:05

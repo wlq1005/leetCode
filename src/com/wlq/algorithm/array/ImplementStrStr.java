@@ -2,7 +2,7 @@ package com.wlq.algorithm.array;
 
 /**
  * 实现 strStr()
- * https://leetcode-cn.com/problems/implement-strstr/submissions/
+ * https://leetcode-cn.com/problems/implement-strstr
  *
  * @author wuliuqing
  * @date 2020/1/3 14:05

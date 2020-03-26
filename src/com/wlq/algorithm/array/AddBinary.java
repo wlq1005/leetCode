@@ -2,7 +2,7 @@ package com.wlq.algorithm.array;
 
 /**
  * 二进制求和
- * https://leetcode-cn.com/problems/add-binary/submissions/
+ * https://leetcode-cn.com/problems/add-binary
  *
  * @author wuliuqing
  * @date 2020/1/2 14:01
