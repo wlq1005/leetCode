@@ -30,6 +30,7 @@
 | 66 | [加一](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/PlusOne.java) |
 | 67 | [二进制求和](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/AddBinary.java) |
 | 70 | [爬楼梯](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/recursion/ClimbingStairs.java) |
+| 104 | [二叉树的最大深度](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/recursion/MaximumDepthOfBinaryTree.java) |
 | 118 | [杨辉三角](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/PascalsTriangle.java) |
 | 119 | [杨辉三角 II](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/PascalsTriangle2.java) |
 | 121 | [买卖股票的最佳时机](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/dynamic/BestTimeToBuyAndSellStock.java) |
