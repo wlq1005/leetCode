@@ -25,6 +25,7 @@
 | 26 | [删除排序数组中的重复项](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/RemoveDuplicatesFromSortedArray.java) |
 | 27 | [移除元素](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/RemoveElement.java) |
 | 28 | [实现 strStr()](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/ImplementStrStr.java) |
+| 50 | [Pow(x, n)](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/recursion/PowXN.java) |
 | 54 | [螺旋矩阵](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/SpiralOrder.java) |
 | 61 | [旋转链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/RotateList.java) |
 | 66 | [加一](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/PlusOne.java) |
