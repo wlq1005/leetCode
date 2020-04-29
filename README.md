@@ -67,6 +67,7 @@
 |  | [设计链表-双链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/DoublyLinkedList.java) |
 | 724 | [寻找数组的中心索引](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/PivotIndex.java) |
 | 747 | [至少是其他数字两倍的最大数](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/DominantIndex.java) |
+| 779 | [第K个语法符号](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/recursion/KThSymbolInGrammar.java) |
 |  |  |
 
 | # | 题名 |
