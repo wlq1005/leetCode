@@ -45,6 +45,7 @@
 | 146 | [LRU缓存机制](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/design/LRUCache.java) |
 | 151 | [翻转字符串里的单词](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/ReverseWordsInAString.java) |
 | 160 | [相交链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/IntersectionNode.java) |
+| 162 | [寻找峰值](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/FindPeakElement.java)
 | 167 | [两数之和 II - 输入有序数组](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/TwoSumIiInputArrayIsSorted.java) |
 | 188 | [买卖股票的最佳时机IV](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/dynamic/BestTimeToBuyAndSellStock4.java) |
 | 198 | [旋转数组](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/RotateArray.java) |
