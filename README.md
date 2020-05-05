@@ -69,6 +69,7 @@
 | 724 | [寻找数组的中心索引](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/PivotIndex.java) |
 | 747 | [至少是其他数字两倍的最大数](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/DominantIndex.java) |
 | 779 | [第K个语法符号](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/recursion/KThSymbolInGrammar.java) |
+| 983 | [最低票价](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/MinimumCostForTickets.java) |
 | 1095 | [山脉数组中查找目标值](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/FindInMountainArray.java) |
 
 | # | 题名 |
