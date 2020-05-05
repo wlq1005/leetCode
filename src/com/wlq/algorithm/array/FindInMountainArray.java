@@ -10,7 +10,7 @@ package com.wlq.algorithm.array;
 public class FindInMountainArray {
 
     static class MountainArray {
-        int[] arr = new int[]{1, 3, 4, 9, 8, 6, 6, 6, 5, 5, 3, 2, 1};
+        int[] arr = new int[]{1,1,1,2,1,1,1};
 
         public int get(int index) {
             return arr[index];
@@ -22,14 +22,14 @@ public class FindInMountainArray {
     }
 
     public int findInMountainArray(int target, MountainArray mountainArr) {
-        // 先找出峰顶
+        // 先找出峰顶, 封顶算法可参考no.162
         int length = mountainArr.length();
         int left = 0;
         int right = length - 1;
-        while (left < right) {
-            int mid = (left + right) / 2;
-            if (mountainArr.get(mid) < mountainArr.get(mid + 1)) {
-                left = mid + 1;
+        while (left + 1 < right) {
+            int mid = left + (right - left) / 2;
+            if (mountainArr.get(mid) > mountainArr.get(mid - 1)) {
+                left = mid;
             } else {
                 right = mid;
             }
@@ -42,34 +42,36 @@ public class FindInMountainArray {
         // 左边二分
         int lTarget = -1;
         int lLeft = 0;
-        int lRight = max;
+        int lRight = max - 1;
         while (lLeft < lRight) {
             int mid = (lLeft + lRight) / 2;
-            if (mountainArr.get(mid) == target) {
-                lTarget = mid;
-                break;
-            } else if (target < mountainArr.get(mid + 1)) {
+            int midVal = mountainArr.get(mid);
+            if (target < midVal) {
+                lRight = mid - 1;
+            } else if (target > midVal) {
                 lLeft = mid + 1;
             } else {
-                lRight = mid;
+                lTarget = mid;
+                break;
             }
         }
         // 右边二分
         int rTarget = -1;
-        int rLeft = max;
+        int rLeft = max + 1;
         int rRight = length - 1;
         while (rLeft < rRight) {
             int mid = (rLeft + rRight) / 2;
-            if (mountainArr.get(mid) == target) {
+            int midVal = mountainArr.get(mid);
+            if (target < midVal) {
+                rLeft = mid + 1;
+            } else if (target > midVal) {
+                rRight = mid - 1;
+            } else {
                 rTarget = mid;
                 break;
-            } else if (target < mountainArr.get(mid + 1)) {
-                rLeft = mid + 1;
-            } else {
-                rRight = mid;
             }
         }
-        return Math.max(lTarget, rTarget);
+        return Math.min(lTarget, rTarget);
     }
 
     public static void main(String[] args) {

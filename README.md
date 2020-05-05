@@ -65,11 +65,11 @@
 | 557 | [反转字符串中的单词 III](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/ReverseWordsInAString3.java) |
 | 561 | [数组拆分 I](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/ArrayPartitionI.java) |
 | 707 | [设计链表-单链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/MyLinkedList.java) |
-|  | [设计链表-双链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/DoublyLinkedList.java) |
+| 707 | [设计链表-双链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/DoublyLinkedList.java) |
 | 724 | [寻找数组的中心索引](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/PivotIndex.java) |
 | 747 | [至少是其他数字两倍的最大数](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/DominantIndex.java) |
 | 779 | [第K个语法符号](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/recursion/KThSymbolInGrammar.java) |
-|  |  |
+| 1095 | [山脉数组中查找目标值](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/FindInMountainArray.java) |
 
 | # | 题名 |
 | --- | --- |
