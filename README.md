@@ -1,7 +1,7 @@
 # 算法学习
 
 ### 排序
- ![算法比较](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/sort.jpg)
+<!--  ![算法比较](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/sort.jpg) -->
 * [冒泡排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/BubbleSort.java)
 * [选择排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/SelectionSort.java)
 * [插入排序](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/sort/InsertSort.java)
