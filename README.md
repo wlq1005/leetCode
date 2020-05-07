@@ -26,13 +26,16 @@
 | 26 | [删除排序数组中的重复项](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/RemoveDuplicatesFromSortedArray.java) |
 | 27 | [移除元素](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/RemoveElement.java) |
 | 28 | [实现 strStr()](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/ImplementStrStr.java) |
+| 45 | [跳跃游戏 II] |
 | 50 | [Pow(x, n)](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/recursion/PowXN.java) |
+| 53 | [最大子序和] |
 | 54 | [螺旋矩阵](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/SpiralOrder.java) |
 | 61 | [旋转链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/RotateList.java) |
 | 66 | [加一](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/PlusOne.java) |
 | 67 | [二进制求和](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/AddBinary.java) |
 | 70 | [爬楼梯](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/recursion/ClimbingStairs.java) |
 | 95 | [不同的二叉搜索树 II](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/recursion/UniqueBinarySearchTreesIi.java) |
+| 98 | [验证二叉搜索树] |
 | 104 | [二叉树的最大深度](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/recursion/MaximumDepthOfBinaryTree.java) |
 | 118 | [杨辉三角](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/PascalsTriangle.java) |
 | 119 | [杨辉三角 II](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/PascalsTriangle2.java) |
