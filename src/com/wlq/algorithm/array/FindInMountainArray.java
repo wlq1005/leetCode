@@ -62,7 +62,7 @@ public class FindInMountainArray {
         return -1;
     }
 
-    private int findRight(MountainArray mountainArr, int left, int right, , int target) {
+    private int findRight(MountainArray mountainArr, int left, int right, int target) {
         while (left < right) {
             int mid = left + (right - left) / 2;
             int midVal = mountainArr.get(mid);
