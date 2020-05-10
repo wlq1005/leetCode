@@ -9,30 +9,39 @@ package com.wlq.algorithm.array;
  **/
 public class MaximalSquare {
 
-    //在一个由 0 和 1 组成的二维矩阵内，找到只包含 1 的最大正方形，并返回其面积。
-    //
-    //示例:
-    //
-    //输入:
-    //
-    //1 0 1 0 0
-    //1 0 1 1 1
-    //1 1 1 1 1
-    //1 0 0 1 0
-    //
-    //输出: 4
-
     public int maximalSquare(char[][] matrix) {
-        // 当我们判断以某个点为正方形右下角时最大的正方形时，那它的上方，左方和左上方三个点也一定是某个正方形的右下角，
-        // 否则该点为右下角的正方形最大就是它自己了。这是定性的判断，那具体的最大正方形边长呢？
-        // 我们知道，该点为右下角的正方形的最大边长，最多比它的上方，左方和左上方为右下角的正方形的边长多1，
-        // 最好的情况是是它的上方，左方和左上方为右下角的正方形的大小都一样的，这样加上该点就可以构成一个更大的正方形。
-        // 但如果它的上方，左方和左上方为右下角的正方形的大小不一样，合起来就会缺了某个角落，
-        // 这时候只能取那三个正方形中最小的正方形的边长加1了。假设dpi表示以i,j为右下角的正方形的最大边长，
-        // 则有 dp[i][j] = min(dp[i-1][j-1], dp[i-1][j], dp[i][j-1]) + 1 当然，如果这个点在原矩阵中本身就是0的话，那dp[i]肯定就是0了。
-        return 0;
+        if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
+            return 0;
+        }
+        int row = matrix.length;
+        int col = matrix[0].length;
+        // dp存储以matrix[i][j]为右下角的正方形的长度。这边扩容了1
+        int[][] dp = new int[row + 1][col + 1];
+        int max = 0;
+        // 如果该位置的值是 00，则 dp(i, j) = 0dp(i,j)=0，因为当前位置不可能在由 11 组成的正方形中；
+        // 如果该位置的值是 11，则 dp(i, j)dp(i,j) 的值由其上方、左方和左上方的三个相邻位置的dp值决定。
+        // 具体而言，当前位置的元素值等于三个相邻位置的元素中的最小值加 11，状态转移方程如下：
+        // dp(i, j)=min(dp(i−1, j), dp(i−1, j−1), dp(i, j−1))+1
+        // dp(i,j)=min(dp(i−1,j),dp(i−1,j−1),dp(i,j−1))+1
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < col; j++) {
+                if (matrix[i][j] != '0') {
+                    dp[i + 1][j + 1] = Math.min(Math.min(dp[i][j + 1], dp[i][j]), dp[i + 1][j]) + 1;
+                    max = Math.max(dp[i + 1][j + 1], max);
+                }
+            }
+        }
+        return max * max;
     }
 
     public static void main(String[] args) {
+        MaximalSquare maximalSquare = new MaximalSquare();
+        char[][] arr = {
+                {'1', '0', '1', '0', '0'},
+                {'1', '0', '1', '1', '1'},
+                {'1', '1', '1', '1', '1'},
+                {'1', '0', '0', '1', '0'}
+        };
+        System.out.println(maximalSquare.maximalSquare(arr));
     }
 }
