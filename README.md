@@ -33,6 +33,7 @@
 | 61 | [旋转链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/RotateList.java) |
 | 66 | [加一](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/PlusOne.java) |
 | 67 | [二进制求和](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/AddBinary.java) |
+| 69 | [x 的平方根](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/AddBinary.java) |
 | 70 | [爬楼梯](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/recursion/ClimbingStairs.java) |
 | 95 | [不同的二叉搜索树 II](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/recursion/UniqueBinarySearchTreesIi.java) |
 | 98 | [验证二叉搜索树] |
