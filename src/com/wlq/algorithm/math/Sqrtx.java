@@ -13,6 +13,7 @@ public class Sqrtx {
         int l = 0;
         int r = x;
         int ans = -1;
+        // 二分法
         while (l <= r) {
             int mid = l + (r - l) / 2;
             if ((long) mid * mid <= x) {
