@@ -49,6 +49,7 @@
 | 142 | [环形链表II](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/LinkedListCycle2.java) |
 | 146 | [LRU缓存机制](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/design/LRUCache.java) |
 | 151 | [翻转字符串里的单词](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/ReverseWordsInAString.java) |
+| 155 | [最小栈](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/stack/MinStack.java) |
 | 160 | [相交链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/IntersectionNode.java) |
 | 162 | [寻找峰值](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/FindPeakElement.java)
 | 167 | [两数之和 II - 输入有序数组](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/TwoSumIiInputArrayIsSorted.java) |
