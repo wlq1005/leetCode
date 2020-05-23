@@ -23,6 +23,7 @@
 | 19 | [删除链表的倒数第N个节点](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/RemoveNthFromEnd.java) |
 | 21 | [合并两个有序链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/MergeTwoSortedLists.java) |
 | 24 | [两两交换链表中的节点](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/recursion/SwapNodesInPairs.java) |
+| 25 | [K 个一组翻转链表] |
 | 26 | [删除排序数组中的重复项](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/RemoveDuplicatesFromSortedArray.java) |
 | 27 | [移除元素](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/RemoveElement.java) |
 | 28 | [实现 strStr()](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/ImplementStrStr.java) |
@@ -35,6 +36,7 @@
 | 67 | [二进制求和](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/AddBinary.java) |
 | 69 | [x 的平方根](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/AddBinary.java) |
 | 70 | [爬楼梯](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/recursion/ClimbingStairs.java) |
+| 76 | [最小覆盖子串] |
 | 95 | [不同的二叉搜索树 II](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/recursion/UniqueBinarySearchTreesIi.java) |
 | 98 | [验证二叉搜索树] |
 | 102 | [二叉树的层序遍历](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/tree/BinaryTreeLevelOrderTraversal.java) |
@@ -75,6 +77,7 @@
 | 560 | [和为K的子数组](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/SubarraySumEqualsK.java) |
 | 561 | [数组拆分 I](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/ArrayPartitionI.java) |
 | 572 | [另一个树的子树](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/tree/SubtreeOfAnotherTree.java) |
+| 680 | [验证回文字符串 Ⅱ] |
 | 707 | [设计链表-单链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/MyLinkedList.java) |
 | 707 | [设计链表-双链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/DoublyLinkedList.java) |
 | 724 | [寻找数组的中心索引](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/PivotIndex.java) |
