@@ -66,6 +66,7 @@
 | 236 | [二叉树的最近公共祖先](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/tree/LowestCommonAncestorOfABinaryTree.java) |
 | 237 | [删除链表中的节点](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/DeleteNodeInALinkedList.java) |
 | 283 | [移动零](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/MoveZeroes.java) |
+| 287 | [寻找重复数](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/FindTheDuplicateNumber.java) |
 | 328 | [奇偶链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/OddEvenList.java) |
 | 344 | [反转字符串](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/ReverseString.java) |
 | 347 | [前 K 个高频元素](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/heap/TopKFrequentElements.java) |
