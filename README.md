@@ -89,6 +89,7 @@
 | 983 | [最低票价](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/MinimumCostForTickets.java) |
 | 1095 | [山脉数组中查找目标值] |
 | 1277 | [统计全为 1 的正方形子矩阵] |
+| 1431 | [拥有最多糖果的孩子](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/KidsWithTheGreatestNumberOfCandies.java) |
 
 | # | 题名 |
 | --- | --- |
