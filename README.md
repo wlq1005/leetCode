@@ -37,6 +37,7 @@
 | 69 | [x 的平方根](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/AddBinary.java) |
 | 70 | [爬楼梯](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/recursion/ClimbingStairs.java) |
 | 76 | [最小覆盖子串] |
+| 94 | [二叉树的中序遍历](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/tree/BinaryTreeInorderTraversal.java) |
 | 95 | [不同的二叉搜索树 II](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/recursion/UniqueBinarySearchTreesIi.java) |
 | 98 | [验证二叉搜索树] |
 | 101 | [对称二叉树](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/recursion/SymmetricTree.java) |
@@ -51,6 +52,8 @@
 | 138 | [合复制带随机指针的链表并两个有序链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/CopyListWithRandomPointer.java) |
 | 141 | [环形链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/LinkedListCycle.java) |
 | 142 | [环形链表II](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/LinkedListCycle2.java) |
+| 144 | [二叉树的前序遍历](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/tree/BinaryTreePreorderTraversal.java) |
+| 145 | [二叉树的后序遍历]()https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/tree/BinaryTreePostorderTraversal.java |
 | 146 | [LRU缓存机制](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/design/LRUCache.java) |
 | 151 | [翻转字符串里的单词](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/ReverseWordsInAString.java) |
 | 155 | [最小栈](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/stack/MinStack.java) |
