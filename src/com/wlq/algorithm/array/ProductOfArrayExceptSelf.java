@@ -14,7 +14,6 @@ public class ProductOfArrayExceptSelf {
     public int[] productExceptSelf(int[] nums) {
         int length = nums.length;
         int[] left = new int[length];
-        int[] result = new int[length];
         // 计算左边的乘积
         for (int i = 0; i < nums.length; i++) {
             left[i] = i == 0 ? 1 : left[i - 1] * nums[i - 1];
@@ -24,9 +23,9 @@ public class ProductOfArrayExceptSelf {
             if (i != length - 1) {
                 right = nums[i + 1] * right;
             }
-            result[i] = left[i] * right;
+            left[i] = left[i] * right;
         }
-        return result;
+        return left;
     }
 
     public static void main(String[] args) {
