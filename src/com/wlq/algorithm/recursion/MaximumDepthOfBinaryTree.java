@@ -19,6 +19,7 @@ public class MaximumDepthOfBinaryTree {
         }
     }
 
+    // 自底向上
     public int maxDepth(TreeNode root) {
         if (root == null) {
             return 0;
@@ -28,5 +29,18 @@ public class MaximumDepthOfBinaryTree {
         return Math.max(left, right) + 1;
     }
 
+    // 自顶向上
+    private int answer = 0;
+
+    public void maxDepth(TreeNode root, int deep) {
+        if (root == null) {
+            return;
+        }
+        if (root.left == null && root.right == null) {
+            answer = Math.max(answer, deep);
+        }
+        maxDepth(root.left, deep + 1);
+        maxDepth(root.right, deep + 1);
+    }
 
 }
