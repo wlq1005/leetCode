@@ -50,6 +50,8 @@
 | 121 | [买卖股票的最佳时机](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/dynamic/BestTimeToBuyAndSellStock.java) |
 | 122 | [买卖股票的最佳时机II](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/dynamic/BestTimeToBuyAndSellStock2.java) |
 | 123 | [买卖股票的最佳时机III](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/dynamic/BestTimeToBuyAndSellStock3.java) |
+| 126 | [单词接龙 II] |
+| 128 | [最长连续序列] |
 | 136 | [只出现一次的数字](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/BeforeYouStart.java) |
 | 138 | [合复制带随机指针的链表并两个有序链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/CopyListWithRandomPointer.java) |
 | 141 | [环形链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/LinkedListCycle.java) |
@@ -90,6 +92,7 @@
 | 707 | [设计链表-单链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/MyLinkedList.java) |
 | 707 | [设计链表-双链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/DoublyLinkedList.java) |
 | 724 | [寻找数组的中心索引](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/PivotIndex.java) |
+| 739 | [每日温度](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/stack/DailyTemperatures.java) |
 | 747 | [至少是其他数字两倍的最大数](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/DominantIndex.java) |
 | 779 | [第K个语法符号](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/recursion/KThSymbolInGrammar.java) |
 | 983 | [最低票价](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/MinimumCostForTickets.java) |
