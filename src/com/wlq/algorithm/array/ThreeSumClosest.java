@@ -32,9 +32,10 @@ public class ThreeSumClosest {
                     }
                     if (res == Integer.MAX_VALUE) {
                         res = temp;
-                    } else if (target > temp && target - temp < target - res ) {
-                        res = temp;
-                    } else if (target < temp && temp - target < res - target) {
+                    }
+                    int diff1 = target > temp ? target - temp : temp - target;
+                    int diff2 = target > res ? target - res : res - target;
+                    if (diff1 < diff2) {
                         res = temp;
                     }
                     third++;
@@ -45,9 +46,9 @@ public class ThreeSumClosest {
     }
 
     public static void main(String[] args) {
-        int[] arr = new int[]{0, 2, 1, -3};
+        int[] arr = new int[]{1,1,1,0};
         ThreeSumClosest threeSumClosest = new ThreeSumClosest();
-        System.out.println(threeSumClosest.threeSumClosest(arr, 1));
+        System.out.println(threeSumClosest.threeSumClosest(arr, -100));
     }
 
 }
