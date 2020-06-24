@@ -1,5 +1,7 @@
 package com.wlq.algorithm.array;
 
+import java.util.Arrays;
+
 /**
  * 16. 最接近的三数之和
  * https://leetcode-cn.com/problems/3sum-closest/
@@ -13,8 +15,9 @@ public class ThreeSumClosest {
         if (nums == null || nums.length == 0) {
             return 0;
         }
-        int res = Integer.MAX_VALUE;
+        int res = 10000;
         int length = nums.length;
+        Arrays.sort(nums);
         for (int first = 0; first < length; first++) {
             if (first > 0 && nums[first] == nums[first - 1]) {
                 continue;
@@ -23,22 +26,29 @@ public class ThreeSumClosest {
                 if (second > first + 1 && nums[second] == nums[second - 1]) {
                     continue;
                 }
-                int third = second + 1;
-                while (second < third && third < length) {
-                    int temp = nums[first] + nums[second] + nums[third];
+                int third = length - 1;
+                while (second < third) {
+                    int sum = nums[first] + nums[second] + nums[third];
                     // 如果和target值一样，那么最接近，直接返回
-                    if (target == temp) {
-                        return temp;
+                    if (target == sum) {
+                        return sum;
                     }
-                    if (res == Integer.MAX_VALUE) {
-                        res = temp;
+                    if (Math.abs(target - sum) < Math.abs(target -  res)) {
+                        res = sum;
                     }
-                    int diff1 = target > temp ? target - temp : temp - target;
-                    int diff2 = target > res ? target - res : res - target;
-                    if (diff1 < diff2) {
-                        res = temp;
+                    if (sum > target) {
+                        int temp = third - 1;
+                        while (second < temp && nums[temp] == nums[third]) {
+                            --temp;
+                        }
+                        third = temp;
+                    } else {
+                        int temp = second + 1;
+                        while (temp  < third && nums[temp] == nums[second]) {
+                            ++temp;
+                        }
+                        second = temp;
                     }
-                    third++;
                 }
             }
         }
@@ -46,9 +56,9 @@ public class ThreeSumClosest {
     }
 
     public static void main(String[] args) {
-        int[] arr = new int[]{1,1,1,0};
+        int[] arr = new int[]{1, 1, 1, 1};
         ThreeSumClosest threeSumClosest = new ThreeSumClosest();
-        System.out.println(threeSumClosest.threeSumClosest(arr, -100));
+        System.out.println(threeSumClosest.threeSumClosest(arr, 100));
     }
 
 }
