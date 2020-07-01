@@ -95,6 +95,7 @@
 | 680 | [验证回文字符串 Ⅱ] |
 | 707 | [设计链表-单链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/MyLinkedList.java) |
 | 707 | [设计链表-双链表](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/linkedlist/DoublyLinkedList.java) |
+| 718 | [最长重复子数组](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/dp/MaximumLengthOfRepeatedSubarray.java) |
 | 724 | [寻找数组的中心索引](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/PivotIndex.java) |
 | 739 | [每日温度](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/stack/DailyTemperatures.java) |
 | 747 | [至少是其他数字两倍的最大数](https://github.com/wlq1005/leetCode/blob/master/src/com/wlq/algorithm/array/DominantIndex.java) |
